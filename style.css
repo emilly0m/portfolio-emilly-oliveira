@@ -364,6 +364,7 @@ footer span { color: rgba(255,255,255,0.7); }
 }
 .reveal.visible { opacity: 1; transform: translateY(0); }
 
+<<<<<<< HEAD
 /* RESPONSIVO — tablet (até 900px) */
 @media (max-width: 900px) {
   nav { padding: 1.2rem 2rem; }
@@ -375,11 +376,22 @@ footer span { color: rgba(255,255,255,0.7); }
 
   section { padding: 4rem 2rem; }
 
+=======
+/* RESPONSIVO */
+@media (max-width: 900px) {
+  nav { padding: 1.2rem 2rem; }
+  .nav-links { gap: 1.2rem; }
+  .hero { grid-template-columns: 1fr; }
+  .hero-left { min-height: 200px; align-items: center; padding: 3rem 2rem; }
+  .hero-right { padding: 3rem 2rem; }
+  section { padding: 4rem 2rem; }
+>>>>>>> 25a842e267a24a380acbb3de486d6082f9a9eb04
   .sobre-grid,
   .skills-grid,
   .projetos-grid,
   .formacao-grid,
   .contato-grid { grid-template-columns: 1fr; gap: 2rem; }
+<<<<<<< HEAD
 
   .sobre-grid { gap: 2.5rem; }
   .contato-grid { gap: 2.5rem; }
@@ -422,4 +434,6 @@ footer span { color: rgba(255,255,255,0.7); }
 
   /* Footer */
   footer { padding: 2rem 1.5rem; }
+=======
+>>>>>>> 25a842e267a24a380acbb3de486d6082f9a9eb04
 }
